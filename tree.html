@@ -14,6 +14,26 @@
 
   </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="tree.html">Tree options</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!--Intellisense changed the type from mr-auto to me-auto-->
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="first.html">First</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="second.html">Second</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <div class="container">
       <div class="row">      
         <div class="col-sm-md">T</div>
@@ -182,6 +202,31 @@
         <li><a class="dropdown-item" href="second.html">Second Page</a></li>
       </ul>
     </div>
+  </div>
+
+  <div class="container mt-4">
+    <h2>Tree Information Form</h2>
+    <form>
+      <div class="form-group mb-3">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      
+      <div class="form-group mb-3">
+        <label for="treeInput">TREE</label>
+        <input type="text" class="form-control" id="treeInput" placeholder="Enter your tree">
+      </div>
+      
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="newsletterCheck">
+        <label class="form-check-label" for="newsletterCheck">
+          Sign up for newsletter?
+        </label>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
 
 </body>
